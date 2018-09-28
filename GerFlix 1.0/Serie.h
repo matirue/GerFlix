@@ -1,4 +1,3 @@
-
 typedef struct
 {
     int idSerie;
@@ -8,7 +7,11 @@ typedef struct
     int estado;
 }eSerie;
 
-void inicializarSeriesEstado(eSerie[], int);
-void inicializarSeriesHardCode(eSerie[]);
-void mostrarListaSeries(eSerie[], int);
+void serie_inicializarEstado(eSerie [], int);
+void serie_inicializarHardCode(eSerie []);
+void mostrarListaSeries(eSerie [], int);
 
+/*
+void serie_listar (eSerie [], int );
+void serie_mostrar (eSerie );
+*/
